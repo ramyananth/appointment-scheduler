@@ -1,0 +1,22 @@
+service: appointmentscheduler
+app: appointmentscheduler
+org: ramyananth
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+
+functions:
+  hello:
+    handler: src/entry/handler.handler
+    events:
+      - http:
+          path: /doctors/{id}
+          method: get
+          request:
+            parameters:
+              paths:
+                id: false
+
+plugins:
+  - serverless-offline

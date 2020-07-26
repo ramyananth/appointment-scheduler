@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "appointment scheduler backend",
+  "main": "handler.js",
+  "scripts": {
+    "build": "",
+    "test": "./node_modules/jest/bin/jest.js ./tests/",
+    "start": "tsc && serverless offline"
+  },
+  "author": "Ramya",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@types/jest": "^24.0.19",
+    "@types/lodash": "^4.14.144",
+    "@types/node": "^12.11.1",
+    "@types/serverless": "^1.18.4",
+    "lodash": "^4.17.15",
+    "serverless-offline": "^5.12.0",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.2"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
