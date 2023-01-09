@@ -16,7 +16,7 @@
     "@types/node": "^12.11.1",
     "@types/serverless": "^1.18.4",
     "lodash": "^4.17.15",
-    "serverless-offline": "^5.12.0",
+    "serverless-offline": "^12.0.4",
     "typescript": "^3.6.4",
     "webpack": "^4.41.2"
   },
